@@ -2,7 +2,6 @@ header {
   display: flex;
   justify-content: center;
   justify-content: space-between;
-  border: 2px solid yellow;
   align-items: center;
 }
 
@@ -11,4 +10,8 @@ header {
   letter-spacing: 10px;
   font-weight: bold;
   font-size: 50px;
+}
+
+header svg {
+  cursor: pointer;
 }
